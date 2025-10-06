@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Actividad 2</title>
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <main>
+        <form id="form-user">
+            <label for="">
+                Nombre
+                <input type="text" name="nombre">
+            </label>
+            <label for="">
+                Apellidos
+                <input type="text" name="apellidos">
+            </label>
+            <label for="">
+                Edad
+                <input type="number" name="edad">
+            </label>
+            <button type="submit" id="btnEnviar">Enviar</button>
+            <p id="salida"></p>
+        </form>
+        <section id="lista-usuarios" >
+            <header>
+                <h2>Usuarios registrados</h2>
+            </header>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    
+                </tbody>
+            </table>
+            <footer>
+                <button id="btnCerrar">Cerrar</button>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
